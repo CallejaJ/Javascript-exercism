@@ -34,6 +34,7 @@ export function revokeTicket(visitor) {
  * @param {string} ticketId
  * @returns {string} ticket status
  */
+
 export function ticketStatus(tickets, ticketId) {
   // 'unknown ticket id' if the identifier was not found in the tracking object
   if (tickets[ticketId] === undefined) {
@@ -74,3 +75,5 @@ export function simpleTicketStatus(tickets, ticketId) {
 export function gtcVersion(visitor) {
   return visitor.gtc?.version
 }
+
+// Yes

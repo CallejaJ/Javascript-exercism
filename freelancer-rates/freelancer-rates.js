@@ -9,7 +9,7 @@
 export function dayRate(ratePerHour) {
   const dailyRate = ratePerHour * 8;
   if (ratePerHour > 0) {
-    return dailyRate
+    return dailyRate;
   }
   else {
     throw new Error(`${ratePerHour} must be a number`);

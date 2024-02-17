@@ -16,7 +16,7 @@ export const EXPECTED_MINUTES_IN_OVEN = 40;
 
 export function remainingMinutesInOven(actualMinutesInOven) {
   let minutesremaining = EXPECTED_MINUTES_IN_OVEN - actualMinutesInOven;
-  if (minutesremaining >= 0) return minutesremaining
+  if (minutesremaining >= 0) return minutesremaining;
   else {
     throw new Error('The lasagna is burnt')
   }

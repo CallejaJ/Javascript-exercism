@@ -48,6 +48,7 @@ export function errorMessage(input) {
  if (input === "" || input === null || input === undefined) {
     return `Required field`
   }
+   // @ts-ignore
   else if (isNaN(input) || input == 0) {
     return `Must be a number besides 0`
   }

@@ -145,4 +145,3 @@ export function canFreePrisoner(
   else return false
 }
 
-// Yes

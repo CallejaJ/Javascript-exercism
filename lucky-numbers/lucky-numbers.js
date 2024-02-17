@@ -25,7 +25,7 @@ export function luckyNumber(value) {
 const chain = String(value)
   let chainInverted = ""
   for (let i = chain.length - 1; i >= 0; i--) {
-    chainInverted += chain[i]
+    chainInverted += chain[i];
   }
   if (chain === chainInverted) {
     return true

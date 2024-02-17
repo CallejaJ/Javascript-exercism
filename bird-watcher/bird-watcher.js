@@ -22,7 +22,6 @@ export function totalBirdCount(birdsPerDay) {
  * @returns {number} birds counted in the given week
  */
 
-// const birdsPerDay = [4, 7, 3, 2, 1, 1, 2, 0, 2, 3, 2, 7, 1, 3, 0, 6, 5, 3, 7, 2, 3];
 
 export function birdsInWeek(birdsPerDay, week) {
   let totalBirds = 0;
@@ -42,7 +41,6 @@ export function birdsInWeek(birdsPerDay, week) {
   }
 }
 
-// console.log(birdsInWeek(birdsPerDay, 3));
 
 /**
  * Fixes the counting mistake by increasing the bird count
